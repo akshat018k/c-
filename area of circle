@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  float pie=3.14,area;
+  int r =5;
+  clrscr();
+  area = pie*(r*r;
+  printf("area of circle is := %f",area);
+  getch();
+}
