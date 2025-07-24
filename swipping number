@@ -1,0 +1,15 @@
+#include<stdio.h>
+#niclude<conio.h>
+void main()
+{
+ int No1=10,No=30,t;
+ clrscr();
+
+ t=No1;
+ No1=No2;
+ No2=t;
+
+ printf("No1 is := %d\n", No1);
+ printf("No2 is := %d",No2);
+ getch();
+}
