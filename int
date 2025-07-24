@@ -3,8 +3,12 @@
 int main()
 {
     int no1=10,no2=20,ans;
+
     clrscr(); 
+
     ans=no1+no2;
+
     printf("addition is =>%d",ans);
+
     getch();
 }
