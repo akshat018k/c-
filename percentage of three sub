@@ -1,0 +1,23 @@
+#niclude<stdio.h>
+#include<conio.h>
+void main()
+{
+  int hindi,eng,guj,total;
+  float per;
+  clrscr();
+
+  printf("Eneter the hindi Marks = ");
+  scanf("%d",&hindi);
+  printf("Eneter the eng Marks = ");
+  scanf("%d",&eng);
+  printf("Eneter the guj Marks = ");
+  scanf("%d",&guj);
+
+  total=hindi+eng+guj;
+  per = total/3;
+
+  printf("total of 3 sub := %d\n",total);
+  printf("per of 3 sub := %f",per);
+
+  getch();
+}  
