@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+vooid main()
+{
+  int h=5,b=7,area;
+  clrscr();
+  area=(h*b)/2;
+  printf("area of triangle is := %d",area);
+  getch();
+}
