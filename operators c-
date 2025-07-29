@@ -1,5 +1,7 @@
 rithmethic operators =>> {" + - / * % "}
 
+//EX.1
+
 #include<stido.h>
 #include<conio.h>
 void main()
@@ -7,3 +9,25 @@ void main()
   int No1=10,No2=90;
   clrscr();
   print("addition number := %d",No1+No2)
+  getch();
+
+//relational operators => {" < , > , <= , >= , == , != "}
+Ex2.
+
+#include<stido.h>
+#include<conio.h>
+void main()
+{
+  int a,b;
+  clrscr();
+
+  print("Enter the number a := ")
+  print("Enter  the number b := ")
+
+  if (a<b)
+      printf("a is greater than b\n");
+  else 
+     printf("a is less than or equal to b\n");
+
+
+
