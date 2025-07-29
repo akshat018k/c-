@@ -1,0 +1,9 @@
+rithmethic operators =>> {" + - / * % "}
+
+#include<stido.h>
+#include<conio.h>
+void main()
+{
+  int No1=10,No2=90;
+  clrscr();
+  print("addition number := %d",No1+No2)
