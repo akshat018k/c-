@@ -8,7 +8,8 @@ void main()
 {
   int No1=10,No2=90;
   clrscr();
-  print("addition number := %d",No1+No2)
+  (No1+No2);
+  printf("addition number := %d",No1+No2);
   getch();
 
 //relational operators => {" < , > , <= , >= , == , != "}
@@ -21,13 +22,46 @@ void main()
   int a,b;
   clrscr();
 
-  print("Enter the number a := ")
-  print("Enter  the number b := ")
+  printf("Enter the number a := ");
+  scanf("%d",&a);
+  printf("Enter  the number b := ");
+  scanf("%d",&b);
+  (a<b);
+  printf(rekational number := %d",a<b);
+  getch();
+}
+//assigment operators {" += -= *= /= %= "}
 
-  if (a<b)
-      printf("a is greater than b\n");
-  else 
-     printf("a is less than or equal to b\n");
+Ex3.
+
+
+#niclude<stdio.h>
+#niclude<conio.h>
+void main()
+{
+  int No1,No2;
+  clrscr();
+
+  printf("Enter the number No1 := ");
+  scanf("%d",&No1);
+  printf("Enter  the number No2 := ");
+  scanf("%d",&No2);
+
+  (No1==No2);
+  printf("addition number := %d",No1==No2);
+
+ getch()l;
+  
+}
+
+//Logical operators {&&(and), ||(OR), !(NOT) }
+
+
+
+
+
+
+
 
 
 
