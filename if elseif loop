@@ -1,0 +1,41 @@
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{
+    int No1,No2,No3;
+    clrscr();
+
+
+    printf("Enter the No1 := ");
+    scanf("%d",&No1);
+    printf("Enter the No2 := ");
+    scanf("%d",&No2);
+    printf("Enter the No3 := ");
+    scanf("%d",&No3);
+    
+    if (No1>No2)
+    {
+        if (No1>No3)
+        {
+            printf("No1 is big");
+        }
+        else
+        {
+            printf("No3 is big");
+        }
+    }
+    else
+    {
+        if (No2>No3)
+        {
+            printf("No2 is big");
+        }
+        else
+        {
+            printf("No3 is big");
+        }
+    }
+    getch();
+}
