@@ -1,0 +1,45 @@
+//Switch Case(Multiple Choice program
+#include <stdio.h>
+#include <conio.h>
+ void main()
+
+
+{
+    int No1=10,No2=90,add,minus,mul;
+    char ch;
+    clrscr();
+    
+    printf("///only cepital word is asked ///\n\n");
+    printf("*********   Press A for Addition   *********\n");
+    printf("*********   Press B for Substraction   ***********\n");
+    printf("*********   Press C for multiplication   *********\n");
+
+    printf("Enter the choice := ");
+    scanf("%c",&ch);
+    
+    switch(ch)
+    {
+                case 'A':
+                        add=No1+No2;
+                        printf("No1 is :=%d\n",No1);
+                        printf("No2 is :=%d\n",No2);
+                        printf("addition is := %d\n",add);
+                        break;
+                case 'B':
+                        minus=No1-No2;
+                        printf("No1 is :=%d\n",No1);
+                        printf("No2 is :=%d\n",No2);
+                        printf("substraction is := %d\n",minus);
+                        break;
+                case 'C':
+                        mul=No1*No2;
+                        printf("No1 is :=%d\n",No1);
+                        printf("No2 is :=%d\n",No2);
+                        printf("multiplication is := %d\n",mul);
+                        break;
+                default:
+                        printf("Wrong choice....!!");
+    }
+
+    getch();
+}
